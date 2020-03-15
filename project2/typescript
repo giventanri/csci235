@@ -1,0 +1,73 @@
+Script started on Tue 18 Feb 2020 03:23:54 PM CST
+]777;notify;Command completed;exit]0;giventanri@cslab07:~/csci235/project2]7;file://cslab07/homes/giventanri/csci235/project2[?1034h________________________________________________________________________________
+| ~/csci235/project2 @ cslab07 (giventanri) 
+| => javac Cipher.java 
+]777;notify;Command completed;javac Cipher.java ]0;giventanri@cslab07:~/csci235/project2]7;file://cslab07/homes/giventanri/csci235/project2________________________________________________________________________________
+| ~/csci235/project2 @ cslab07 (giventanri) 
+| => java Cipher 
+Please enter text--> Itaa Yjaxjh Rpthpg, "Ndjg rxewtg hixczh."
+	 Input: 
+Itaa Yjaxjh Rpthpg, "Ndjg rxewtg hixczh."
+
+	 Distance 1
+Jubb Zkbyki Squiqh, "Oekh syfxuh ijydai."
+
+	 Press enter to see the next option,type 'quit' to quit.
+
+	 Distance 2
+Kvcc Alczlj Trvjri, "Pfli tzgyvi jkzebj."
+
+	 Press enter to see the next option,type 'quit' to quit.
+
+	 Distance 3
+Lwdd Bmdamk Uswksj, "Qgmj uahzwj klafck."
+
+	 Press enter to see the next option,type 'quit' to quit.
+
+	 Distance 4
+Mxee Cnebnl Vtxltk, "Rhnk vbiaxk lmbgdl."
+
+	 Press enter to see the next option,type 'quit' to quit.
+
+	 Distance 5
+Nyff Dofcom Wuymul, "Siol wcjbyl mnchem."
+
+	 Press enter to see the next option,type 'quit' to quit.
+
+	 Distance 6
+Ozgg Epgdpn Xvznvm, "Tjpm xdkczm nodifn."
+
+	 Press enter to see the next option,type 'quit' to quit.
+
+	 Distance 7
+Pahh Fqheqo Ywaown, "Ukqn yeldan opejgo."
+
+	 Press enter to see the next option,type 'quit' to quit.
+
+	 Distance 8
+Qbii Grifrp Zxbpxo, "Vlro zfmebo pqfkhp."
+
+	 Press enter to see the next option,type 'quit' to quit.
+
+	 Distance 9
+Rcjj Hsjgsq Aycqyp, "Wmsp agnfcp qrgliq."
+
+	 Press enter to see the next option,type 'quit' to quit.
+
+	 Distance 10
+Sdkk Itkhtr Bzdrzq, "Xntq bhogdq rshmjr."
+
+	 Press enter to see the next option,type 'quit' to quit.
+
+	 Distance 11
+Tell Julius Caesar, "Your cipher stinks."
+
+	 Press enter to see the next option,type 'quit' to quit.
+quit
+	 Final shift distance was 11 places.
+]777;notify;Command completed;java Cipher ]0;giventanri@cslab07:~/csci235/project2]7;file://cslab07/homes/giventanri/csci235/project2________________________________________________________________________________
+| ~/csci235/project2 @ cslab07 (giventanri) 
+| => exit
+exit
+
+Script done on Tue 18 Feb 2020 03:25:18 PM CST

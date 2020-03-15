@@ -1,0 +1,73 @@
+Script started on Wed Mar  4 14:49:04 2020
+[?1034h________________________________________________________________________________
+| ~/Downloads/Project 3 @ aryeh (giventanri) 
+| => javac *.java
+________________________________________________________________________________
+| ~/Downloads/Project 3 @ aryeh (giventanri) 
+| => java Sort Selection
+Before sorting: 
+43   60   62   68   87   91   73   57   87   3   
+After sorting:
+3   43   57   60   62   68   73   87   87   91   
+________________________________________________________________________________
+| ~/Downloads/Project 3 @ aryeh (giventanri) 
+| => java Sort Selection
+Before sorting: 
+0   23   9   87   6   22   46   80   35   52   
+After sorting:
+0   6   9   22   23   35   46   52   80   87   
+________________________________________________________________________________
+| ~/Downloads/Project 3 @ aryeh (giventanri) 
+| => java Sort Selection
+Before sorting: 
+22   83   6   61   16   26   83   9   26   61   
+After sorting:
+6   9   16   22   26   26   61   61   83   83   
+________________________________________________________________________________
+| ~/Downloads/Project 3 @ aryeh (giventanri) 
+| => java Sort S[KInsertion
+Before sorting: 
+35   3   55   97   71   43   31   50   19   12   
+After sorting:
+3   12   19   31   35   43   50   55   71   97   
+________________________________________________________________________________
+| ~/Downloads/Project 3 @ aryeh (giventanri) 
+| => java Sort Insertion
+Before sorting: 
+38   94   56   7   17   14   90   71   31   75   
+After sorting:
+7   14   17   31   38   56   71   75   90   94   
+________________________________________________________________________________
+| ~/Downloads/Project 3 @ aryeh (giventanri) 
+| => java Sort Insertion
+Before sorting: 
+4   60   1   40   4   22   18   40   61   94   
+After sorting:
+1   4   4   18   22   40   40   60   61   94   
+________________________________________________________________________________
+| ~/Downloads/Project 3 @ aryeh (giventanri) 
+| => java Sort Merge
+Before sorting: 
+65   17   56   0   22   83   21   84   31   14   
+After sorting:
+0   14   17   21   22   31   56   65   83   84   
+________________________________________________________________________________
+| ~/Downloads/Project 3 @ aryeh (giventanri) 
+| => java Sort Merge
+Before sorting: 
+72   43   57   14   92   27   23   78   90   88   
+After sorting:
+14   23   27   43   57   72   78   88   90   92   
+________________________________________________________________________________
+| ~/Downloads/Project 3 @ aryeh (giventanri) 
+| => java Sort Merge
+Before sorting: 
+71   58   80   94   39   34   62   57   90   68   
+After sorting:
+34   39   57   58   62   68   71   80   90   94   
+________________________________________________________________________________
+| ~/Downloads/Project 3 @ aryeh (giventanri) 
+| => exit
+exit
+
+Script done on Wed Mar  4 14:49:59 2020

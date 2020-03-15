@@ -1,0 +1,196 @@
+Script started on Tue 21 Jan 2020 02:18:26 PM CST
+]777;notify;Command completed;exit]0;giventanri@cslab18:~/csci235/lab1]7;file://cslab18/homes/giventanri/csci235/lab1[?1034h________________________________________________________________________________
+| ~/csci235/lab1 @ cslab18 (giventanri) 
+| => ls l[K-l
+total 36
+-rw-rw-r--. 1 giventanri giventanri 1018 Jan 21 13:34 FibNumbers.java
+-rw-rw-r--. 1 giventanri giventanri 1566 Jan 21 14:12 FindNumbers.java
+-rw-rw-r--. 1 giventanri giventanri 1275 Jan 21 13:34 FindNumbers.java~
+-rw-rw-r--. 1 giventanri giventanri  321 Jan 21 13:37 Greeting.java
+-rw-rw-r--. 1 giventanri giventanri  255 Jan 21 13:34 Greeting.java~
+-rw-rw-r--. 1 giventanri giventanri  897 Jan 21 13:49 PrintNumbers.java
+-rw-rw-r--. 1 giventanri giventanri  737 Jan 21 13:34 PrintNumbers.java~
+-rw-rw-r--. 1 giventanri giventanri  891 Jan 21 13:56 PrintTens.java
+-rw-rw-r--. 1 giventanri giventanri  897 Jan 21 13:52 PrintTens.java~
+-rw-rw-r--. 1 giventanri giventanri    0 Jan 21 14:18 typescript
+]777;notify;Command completed;ls -l]0;giventanri@cslab18:~/csci235/lab1]7;file://cslab18/homes/giventanri/csci235/lab1________________________________________________________________________________
+| ~/csci235/lab1 @ cslab18 (giventanri) 
+| => javac PrintNumbers.java
+]777;notify;Command completed;javac PrintNumbers.java]0;giventanri@cslab18:~/csci235/lab1]7;file://cslab18/homes/giventanri/csci235/lab1________________________________________________________________________________
+| ~/csci235/lab1 @ cslab18 (giventanri) 
+| => java PrintNumbers
+Type the first integer: 3
+Type the second integer: 7
+
+3
+4
+5
+6
+7
+25
+]777;notify;Command completed;java PrintNumbers]0;giventanri@cslab18:~/csci235/lab1]7;file://cslab18/homes/giventanri/csci235/lab1________________________________________________________________________________
+| ~/csci235/lab1 @ cslab18 (giventanri) 
+| => 4
+bash: 4: command not found
+]777;notify;Command completed;4]0;giventanri@cslab18:~/csci235/lab1]7;file://cslab18/homes/giventanri/csci235/lab1________________________________________________________________________________
+| ~/csci235/lab1 @ cslab18 (giventanri) 
+| => 8[K4java PrintNumbers
+Type the first integer: 5
+Type the second integer: 8
+
+5
+6
+7
+8
+26
+]777;notify;Command completed;java PrintNumbers]0;giventanri@cslab18:~/csci235/lab1]7;file://cslab18/homes/giventanri/csci235/lab1________________________________________________________________________________
+| ~/csci235/lab1 @ cslab18 (giventanri) 
+| => javac PrintTens.java
+]777;notify;Command completed;javac PrintTens.java]0;giventanri@cslab18:~/csci235/lab1]7;file://cslab18/homes/giventanri/csci235/lab1________________________________________________________________________________
+| ~/csci235/lab1 @ cslab18 (giventanri) 
+| => java PrintTens
+Type the first integer: 1
+Type the second integer: 1000
+
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+170
+180
+190
+200
+210
+220
+230
+240
+250
+260
+270
+280
+290
+300
+310
+320
+330
+340
+350
+360
+370
+380
+390
+400
+410
+420
+430
+440
+450
+460
+470
+480
+490
+500
+510
+520
+530
+540
+550
+560
+570
+580
+590
+600
+610
+620
+630
+640
+650
+660
+670
+680
+690
+700
+710
+720
+730
+740
+750
+760
+770
+780
+790
+800
+810
+820
+830
+840
+850
+860
+870
+880
+890
+900
+910
+920
+930
+940
+950
+960
+970
+980
+990
+1000
+]777;notify;Command completed;java PrintTens]0;giventanri@cslab18:~/csci235/lab1]7;file://cslab18/homes/giventanri/csci235/lab1________________________________________________________________________________
+| ~/csci235/lab1 @ cslab18 (giventanri) 
+| => java PrintTens
+Type the first integer: 1
+Type the second integer: 50
+
+10
+20
+30
+40
+50
+]777;notify;Command completed;java PrintTens]0;giventanri@cslab18:~/csci235/lab1]7;file://cslab18/homes/giventanri/csci235/lab1________________________________________________________________________________
+| ~/csci235/lab1 @ cslab18 (giventanri) 
+| => javac FindNumbers.java
+]777;notify;Command completed;javac FindNumbers.java]0;giventanri@cslab18:~/csci235/lab1]7;file://cslab18/homes/giventanri/csci235/lab1________________________________________________________________________________
+| ~/csci235/lab1 @ cslab18 (giventanri) 
+| => java FindNumbers
+The array has: 
+[92 97 77 26 22 77 9 96 9 62 42 40 48 4 40 23 17 91 93 48 ]
+
+The number of evens: 11
+The number of odds: 9
+The smallest: 4
+The largest: 97
+The sum: 1013
+]777;notify;Command completed;java FindNumbers]0;giventanri@cslab18:~/csci235/lab1]7;file://cslab18/homes/giventanri/csci235/lab1________________________________________________________________________________
+| ~/csci235/lab1 @ cslab18 (giventanri) 
+| => java FindNumbers
+The array has: 
+[89 23 57 1 82 3 15 50 33 74 78 11 57 39 21 50 1 28 28 64 ]
+
+The number of evens: 8
+The number of odds: 12
+The smallest: 1
+The largest: 89
+The sum: 804
+]777;notify;Command completed;java FindNumbers]0;giventanri@cslab18:~/csci235/lab1]7;file://cslab18/homes/giventanri/csci235/lab1________________________________________________________________________________
+| ~/csci235/lab1 @ cslab18 (giventanri) 
+| => exit
+exit
+
+Script done on Tue 21 Jan 2020 02:20:58 PM CST

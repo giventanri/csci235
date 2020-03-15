@@ -1,0 +1,65 @@
+Script started on Tue 11 Feb 2020 02:50:21 PM CST
+]777;notify;Command completed;exit]0;yetingli@cslab05:~/csci235/lab3]7;file://cslab05/homes/yetingli/csci235/lab3[?1034h[yetingli@cslab05 lab3]$ javac S[KArrayManip.java 
+]777;notify;Command completed;javac ArrayManip.java ]0;yetingli@cslab05:~/csci235/lab3]7;file://cslab05/homes/yetingli/csci235/lab3[yetingli@cslab05 lab3]$ javac Sieve.java 
+]777;notify;Command completed;javac Sieve.java ]0;yetingli@cslab05:~/csci235/lab3]7;file://cslab05/homes/yetingli/csci235/lab3[yetingli@cslab05 lab3]$ java ArrayManip 
+Please enter the size of the array--> 9
+1. Set a value in the array
+2. Find the average
+3. Find the minimum and maximum
+4. Display the contents
+5. Quit
+Your choice--> 1
+Index--> 0
+Value--> 0
+1. Set a value in the array
+2. Find the average
+3. Find the minimum and maximum
+4. Display the contents
+5. Quit
+Your choice--> 1
+Index--> 1
+Value--> 1
+1. Set a value in the array
+2. Find the average
+3. Find the minimum and maximum
+4. Display the contents
+5. Quit
+Your choice--> 1
+Index--> 2
+Value--> 2
+1. Set a value in the array
+2. Find the average
+3. Find the minimum and maximum
+4. Display the contents
+5. Quit
+Your choice--> 2
+The average of the array is 0.3333333333333333. 
+1. Set a value in the array
+2. Find the average
+3. Find the minimum and maximum
+4. Display the contents
+5. Quit
+Your choice--> 3
+The minimum of the array is 0. 
+The maximum of the array is 2. 
+1. Set a value in the array
+2. Find the average
+3. Find the minimum and maximum
+4. Display the contents
+5. Quit
+Your choice--> 4
+a[0] = 0	a[1] = 1	a[2] = 2	a[3] = 0	
+a[4] = 0	a[5] = 0	a[6] = 0	a[7] = 0	
+a[8] = 0	
+1. Set a value in the array
+2. Find the average
+3. Find the minimum and maximum
+4. Display the contents
+5. Quit
+Your choice--> 5
+]777;notify;Command completed;java ArrayManip ]0;yetingli@cslab05:~/csci235/lab3]7;file://cslab05/homes/yetingli/csci235/lab3[yetingli@cslab05 lab3]$ java Sieve 
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
+]777;notify;Command completed;java Sieve ]0;yetingli@cslab05:~/csci235/lab3]7;file://cslab05/homes/yetingli/csci235/lab3[yetingli@cslab05 lab3]$ script[K[K[K[K[K[Kexit
+exit
+
+Script done on Tue 11 Feb 2020 02:51:48 PM CST

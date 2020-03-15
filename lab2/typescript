@@ -1,0 +1,76 @@
+Script started on Tue 28 Jan 2020 02:36:21 PM CST
+]777;notify;Command completed;emacs FibNumbers.java &]0;giventanri@cslab12:~/csci235/lab2]7;file://cslab12/homes/giventanri/csci235/lab2[?1034h________________________________________________________________________________
+| ~/csci235/lab2 @ cslab12 (giventanri) 
+| => javac Palindrome.java 
+]777;notify;Command completed;javac Palindrome.java ]0;giventanri@cslab12:~/csci235/lab2]7;file://cslab12/homes/giventanri/csci235/lab2________________________________________________________________________________
+| ~/csci235/lab2 @ cslab12 (giventanri) 
+| => java Palindrome 
+Please enter a word for testing: bii===      noon
+You entered: noon
+noon is a palindrome.
+]777;notify;Command completed;java Palindrome ]0;giventanri@cslab12:~/csci235/lab2]7;file://cslab12/homes/giventanri/csci235/lab2________________________________________________________________________________
+| ~/csci235/lab2 @ cslab12 (giventanri) 
+| => java Palindrome 
+Please enter a word for testing: reviver
+You entered: reviver
+reviver is a palindrome.
+]777;notify;Command completed;java Palindrome ]0;giventanri@cslab12:~/csci235/lab2]7;file://cslab12/homes/giventanri/csci235/lab2________________________________________________________________________________
+| ~/csci235/lab2 @ cslab12 (giventanri) 
+| => java Palindrome 
+Please enter a word for testing: o
+You entered: o
+o is a palindrome.
+]777;notify;Command completed;java Palindrome ]0;giventanri@cslab12:~/csci235/lab2]7;file://cslab12/homes/giventanri/csci235/lab2________________________________________________________________________________
+| ~/csci235/lab2 @ cslab12 (giventanri) 
+| => java Palindrome 
+Please enter a word for testing: my
+You entered: my
+my is not a palindrome.
+]777;notify;Command completed;java Palindrome ]0;giventanri@cslab12:~/csci235/lab2]7;file://cslab12/homes/giventanri/csci235/lab2________________________________________________________________________________
+| ~/csci235/lab2 @ cslab12 (giventanri) 
+| => java Palindrome [C[C[C[C[C[C[C[C[C[6@c Palindrome.java[C[C[C[C[C[C[C[C[C[C[6P Palindrome[C
+Please enter a word for testing: college
+You entered: college
+college is not a palindrome.
+]777;notify;Command completed;java Palindrome ]0;giventanri@cslab12:~/csci235/lab2]7;file://cslab12/homes/giventanri/csci235/lab2________________________________________________________________________________
+| ~/csci235/lab2 @ cslab12 (giventanri) 
+| => javac BetterPalindrome.java 
+]777;notify;Command completed;javac BetterPalindrome.java ]0;giventanri@cslab12:~/csci235/lab2]7;file://cslab12/homes/giventanri/csci235/lab2________________________________________________________________________________
+| ~/csci235/lab2 @ cslab12 (giventanri) 
+| => java Bew[KtterPalindrome 
+Please enter a word for testing: Pop
+You entered: Pop
+Pop is a palindrome.
+]777;notify;Command completed;java BetterPalindrome ]0;giventanri@cslab12:~/csci235/lab2]7;file://cslab12/homes/giventanri/csci235/lab2________________________________________________________________________________
+| ~/csci235/lab2 @ cslab12 (giventanri) 
+| => java BetterPalindrome 
+Please enter a word for testing: A man, a plan, a canal: Panama!
+You entered: A man, a plan, a canal: Panama!
+A man, a plan, a canal: Panama! is a palindrome.
+]777;notify;Command completed;java BetterPalindrome ]0;giventanri@cslab12:~/csci235/lab2]7;file://cslab12/homes/giventanri/csci235/lab2________________________________________________________________________________
+| ~/csci235/lab2 @ cslab12 (giventanri) 
+| => javac Pangram.java 
+]777;notify;Command completed;javac Pangram.java ]0;giventanri@cslab12:~/csci235/lab2]7;file://cslab12/homes/giventanri/csci235/lab2________________________________________________________________________________
+| ~/csci235/lab2 @ cslab12 (giventanri) 
+| => java Pangram 
+Please enter a word for testing: My faxed joke won a pager in the cable TV show    quiz show. 
+You entered: My faxed joke won a pager in the cable TV quiz show. 
+My faxed joke won a pager in the cable TV quiz show.  is a pangram.
+]777;notify;Command completed;java Pangram ]0;giventanri@cslab12:~/csci235/lab2]7;file://cslab12/homes/giventanri/csci235/lab2________________________________________________________________________________
+| ~/csci235/lab2 @ cslab12 (giventanri) 
+| => java Pangram 
+Please enter a word for testing: Definetlye not         itely not a pangram
+You entered: Definitely not a pangram
+Definitely not a pangram is not a pangram.
+]777;notify;Command completed;java Pangram ]0;giventanri@cslab12:~/csci235/lab2]7;file://cslab12/homes/giventanri/csci235/lab2________________________________________________________________________________
+| ~/csci235/lab2 @ cslab12 (giventanri) 
+| => exit[K[K[K[Kjava BetterPalindrome 
+Please enter a word for testing: awef
+You entered: awef
+awef is not a palindrome.
+]777;notify;Command completed;java BetterPalindrome ]0;giventanri@cslab12:~/csci235/lab2]7;file://cslab12/homes/giventanri/csci235/lab2________________________________________________________________________________
+| ~/csci235/lab2 @ cslab12 (giventanri) 
+| => exit
+exit
+
+Script done on Tue 28 Jan 2020 02:39:24 PM CST

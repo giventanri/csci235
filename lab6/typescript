@@ -1,0 +1,42 @@
+Script started on Tue 03 Mar 2020 03:22:33 PM CST
+]777;notify;Command completed;java RecursiveString a b]0;willowvanderkooi@cslab16:~/csci235/lab6]7;file://cslab16/homes/willowvanderkooi/csci235/lab6[?1034h[willowvanderkooi@cslab16 lab6]$ jaa[Kvac Recursive.[KString.java
+]777;notify;Command completed;javac RecursiveString.java]0;willowvanderkooi@cslab16:~/csci235/lab6]7;file://cslab16/homes/willowvanderkooi/csci235/lab6[willowvanderkooi@cslab16 lab6]$ java RecursiveString a a
+testing isAlphabetic: true
+testing length: 1
+testing contains: true
+testing equals: true
+testing isPalindrome: true
+testing reverse:  .a.
+testing startsWith: true
+testing areSemordnilap: true
+]777;notify;Command completed;java RecursiveString a a]0;willowvanderkooi@cslab16:~/csci235/lab6]7;file://cslab16/homes/willowvanderkooi/csci235/lab6[willowvanderkooi@cslab16 lab6]$ S[KRecursive Stri[K[K[K[K[KString[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kjava RecursiveString a a[K[K[Khello olleh
+testing isAlphabetic: true
+testing length: 5
+testing contains: true
+testing equals: false
+testing isPalindrome: false
+testing reverse:  .olleh.
+testing startsWith: false
+testing areSemordnilap: true
+]777;notify;Command completed;java RecursiveString hello olleh]0;willowvanderkooi@cslab16:~/csci235/lab6]7;file://cslab16/homes/willowvanderkooi/csci235/lab6[willowvanderkooi@cslab16 lab6]$ java RecursiveString hello olleh[K[K[K[K[K[K[K[K[K[K[Kracecar rac
+testing isAlphabetic: true
+testing length: 7
+testing contains: true
+testing equals: false
+testing isPalindrome: true
+testing reverse:  .racecar.
+testing startsWith: true
+testing areSemordnilap: false
+]777;notify;Command completed;java RecursiveString racecar rac]0;willowvanderkooi@cslab16:~/csci235/lab6]7;file://cslab16/homes/willowvanderkooi/csci235/lab6[willowvanderkooi@cslab16 lab6]$ java RecursiveString racecar rac[K[K[K[K[K[K[K[K[K[K[Kab b
+testing isAlphabetic: true
+testing length: 2
+testing contains: true
+testing equals: false
+testing isPalindrome: false
+testing reverse:  .ba.
+testing startsWith: false
+testing areSemordnilap: false
+]777;notify;Command completed;java RecursiveString ab b]0;willowvanderkooi@cslab16:~/csci235/lab6]7;file://cslab16/homes/willowvanderkooi/csci235/lab6[willowvanderkooi@cslab16 lab6]$ exit
+exit
+
+Script done on Tue 03 Mar 2020 03:24:17 PM CST
