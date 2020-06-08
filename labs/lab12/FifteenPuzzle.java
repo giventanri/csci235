@@ -20,7 +20,8 @@ public class FifteenPuzzle {
         // Window containing the puzzle
         JFrame window = new JFrame("Fifteen puzzle");
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	window.setSize(100, 130);
+        window.setSize(100, 130);
+        window.setLayout(new GridLayout(4, 4));
 
         // 4x4 matrix of puzzle pieces 
         PuzzlePiece[][] pieces = new PuzzlePiece[4][4];   
