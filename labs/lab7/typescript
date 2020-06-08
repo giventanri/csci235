@@ -1,0 +1,28 @@
+Script started on Tue 24 Mar 2020 03:01:06 PM CDT
+]777;notify;Command completed;exit]0;giventanri@cslab01:~/csci235/lab7]7;file://cslab01/homes/giventanri/csci235/lab7[?1034h[giventanri@cslab01 lab7]$ javac *.java
+]777;notify;Command completed;javac *.java]0;giventanri@cslab01:~/csci235/lab7]7;file://cslab01/homes/giventanri/csci235/lab7[giventanri@cslab01 lab7]$ java ShapesDriver 1.0 5.0
+The area of rectangle: 5.0
+The perimeter of rectangle: 12.0
+The area of circle: 3.141592653589793
+The perimeter of circle: 6.283185307179586
+The output of toString(): 
+ --CIRCLE-- 
+ Radius: 1.0
+ Area: 3.141592653589793
+ Perimeter: 6.283185307179586
+
+]777;notify;Command completed;java ShapesDriver 1.0 5.0]0;giventanri@cslab01:~/csci235/lab7]7;file://cslab01/homes/giventanri/csci235/lab7[giventanri@cslab01 lab7]$ java ShapesDriver 1.0 5.0[K[K[K[K[K[K[K3 3
+The area of rectangle: 9.0
+The perimeter of rectangle: 12.0
+The area of circle: 28.274333882308138
+The perimeter of circle: 18.84955592153876
+The output of toString(): 
+ --CIRCLE-- 
+ Radius: 3.0
+ Area: 28.274333882308138
+ Perimeter: 18.84955592153876
+
+]777;notify;Command completed;java ShapesDriver 3 3]0;giventanri@cslab01:~/csci235/lab7]7;file://cslab01/homes/giventanri/csci235/lab7[giventanri@cslab01 lab7]$ exit
+exit
+
+Script done on Tue 24 Mar 2020 03:02:07 PM CDT

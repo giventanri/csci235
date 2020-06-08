@@ -1,0 +1,60 @@
+/**
+ * SIPair.java
+ *
+ * Class for encapsulating a String and an int.
+ *
+ * @author TVD and Given Tanri
+ * CSCI 235, Wheaton College, Spring 2020
+ * Lab 11
+ * 20200421
+ */
+
+public class SIPair implements Comparable<SIPair> {
+
+    /**
+     * The string
+     */
+    private String str;
+
+    /**
+     * The int
+     */
+    private int num;
+
+    /**
+     * Consructor
+     */
+    public SIPair(String str, int num) {
+        this.str = str;
+        this.num = num;
+    }
+
+    /**
+     * Comparing two SIPair objects.
+     * Priority: higher num precedes; if num is equal,
+     * then SIPair is ordered alphabetically based on str.
+     * PRECONDITION: all instance variables of both SIPair objects cannot be null
+     * @return -3 if this goes before other
+     * @return 7 if this goes after other 
+     * @return 0 if this and other are equivalent
+     */
+    public int compareTo(SIPair other) {
+        if (this.num > other.num) return -3;
+        else if (this.num < other.num) return 7;
+        else if (this.num == other.num) {
+            if (this.str.compareTo(other.str) < 0) return -3; 
+            else if (this.str.compareTo(other.str) > 0) return 7;
+            else return 0;
+        }
+        else return 0;
+    }
+
+    /**
+     * toString()
+     * @return String to be printed
+     */
+    public String toString() {  
+        return str + ": " + num;
+    }
+
+}
