@@ -1,15 +1,15 @@
 /**
- * OperatorNode.java
+ * Operation.java
  *
  * An class for Parse trees that stores a Operator
  * in an Expression
  * 
  * @author Given Tanri
  * Wheaton College, CSCI 235, Spring 2020
- * Lab 10
- * Date 20200414
+ * Project 7
+ * 20200502
  */
-public class OperatorNode implements ExprNode {
+public class Operation implements ExprNode {
 
     /**
      * The operator.
@@ -34,7 +34,7 @@ public class OperatorNode implements ExprNode {
      * @param leftOperand Expression to the left of the operator
      * @param rightOperand Expression to the right of the operator
      */
-    public OperatorNode (String operator, ExprNode leftOperand, ExprNode rightOperand) {
+    public Operation (String operator, ExprNode leftOperand, ExprNode rightOperand) {
         this.operator = operator;
         this.left = leftOperand;
         this.right = rightOperand;
@@ -42,18 +42,20 @@ public class OperatorNode implements ExprNode {
 
     /**
      * Evaluate the expression
+     * @param d The value of a Variable (not used; artifact)
      * @return The value of the expression
      * PRECONDITION: all instance variables of this OperatorNode are valid
      */
-    public int evaluate() {
-        int x = left.evaluate();
-        int y = right.evaluate();
+    public double evaluate(double d) {
+        double x = left.evaluate();
+        double y = right.evaluate();
         String op = operator; 
 
         if (op.equals("+") ) return x + y;
         if (op.equals("-") ) return x - y;
         if (op.equals("*") ) return x * y;
         if (op.equals("/") ) return x / y;
+        if (op.equals("^") ) return Math.pow(x, y);
         else return 0;
-        }
     }
+}
