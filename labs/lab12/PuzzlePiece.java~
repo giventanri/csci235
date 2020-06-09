@@ -35,7 +35,8 @@ public class PuzzlePiece implements ActionListener {
     /**
      * Array storing the neighboring PuzzlePiece objects adjecent to this.
      */
-    private PuzzlePiece[] neighbors;
+	private PuzzlePiece[] neighbors;
+
 
     /**
      * Constructor.
@@ -105,11 +106,11 @@ public class PuzzlePiece implements ActionListener {
         neighbor.updateText();
     }
     
-    /**
-     * Update the text on the button according to
-     * the current number of this PuzzlePiece
-     * POSTCONDITION: Text are updated. Number 0 creates a blank button.
-     */
+        /**
+         * Update the text on the button according to
+         * the current number of this PuzzlePiece
+         * POSTCONDITION: Text are updated. Number 0 creates a blank button.
+         */
     public void updateText() {
         if (number == 0) button.setText("");
         else button.setText(""+number);
