@@ -3,10 +3,10 @@
  *
  * Program to emulate a "Fifteen" sliding-block puzzle.
  *
- * @author TVD and ...
+ * @author TVD and Given Tanri
  * Wheaton College, CSCI 235, Spring 2020
  * Lab 12
- * Date?
+ * 20200428
  */
 
 import javax.swing.*;
@@ -20,7 +20,9 @@ public class FifteenPuzzle {
         // Window containing the puzzle
         JFrame window = new JFrame("Fifteen puzzle");
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        window.setSize(100, 130);
+        window.setSize(500, 400);
+
+        // Set to 4x4 GridLayout
         window.setLayout(new GridLayout(4, 4));
 
         // 4x4 matrix of puzzle pieces 
@@ -56,4 +58,3 @@ public class FifteenPuzzle {
     }
 
 }
-
