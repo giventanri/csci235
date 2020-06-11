@@ -23,8 +23,6 @@ public class Interpreter {
             String nodes[] = ExprStringSlicer.slice(input);
                 
             ExprNode out = null;
-
-            for (String node: nodes) System.out.println("parse node: "+node);
         
             /*
               If the length is one, 
@@ -34,7 +32,7 @@ public class Interpreter {
               (left expression) operation (right expression)
              */
             if (nodes.length == 1) {  //base case
-                if (nodes[0] == "x") out = new Variable(nodes[0]);
+                if (nodes[0].equals("x")) out = new Variable(nodes[0]);
                 else out = new Number(nodes[0]);
             } else {	      	//recursive case
                 ExprNode left = parse(nodes[0]);
@@ -52,7 +50,6 @@ public class Interpreter {
      * For testing project 7 (Part A).
      */
     public static void main(String[] args) {
-        for (String arg: args) System.out.println("main arg: "+arg);
         ExprNode tree = parse(args[0]);
         System.out.println(tree.evaluate(Double.parseDouble(args[1])));
     }

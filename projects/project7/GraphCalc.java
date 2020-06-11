@@ -3,7 +3,7 @@
  *
  * Graphing calculator program (class with main method)
  *
- * @author
+ * @author Given Tanri
  * CSCI 235, Wheaton College, Spring 2020
  * Project 7
  * Date?
@@ -14,11 +14,12 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+
 public class GraphCalc {
 
-    public static void main(String[] args) {
-
-        JFrame window = new JFrame("Graphing calculator");
+    // constructor from old main()
+    public GraphCalc() {
+    JFrame window = new JFrame("Graphing calculator");
 	window.setLayout(new FlowLayout());
 	window.setSize(350, 600);
         
@@ -44,7 +45,9 @@ public class GraphCalc {
 	window.add(panel2);
 	window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	window.setVisible(true);
-    }
+}
 
-
+    public static void main(String[] args) {
+        GraphCalc theWindow = new GraphCalc();
+}
 }
