@@ -4,7 +4,7 @@
  * An class for Parse trees that stores a constant
  * in an Expression
  * 
- * @author Given Tanri
+ * @author Given Tanris
  * Wheaton College, CSCI 235, Spring 2020
  * Project 7
  * 20200502
@@ -30,7 +30,7 @@ public class Number implements ExprNode {
      * @return value The value of the constant
      * PRECONDITION: value of this Constant is a valid integer
      */
-    public double evaluate(double d) {
+    public double evaluate(double x) {
         return this.value;
     }
 }

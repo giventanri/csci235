@@ -28,6 +28,7 @@ public class FifteenPuzzle {
         // 4x4 matrix of puzzle pieces 
         PuzzlePiece[][] pieces = new PuzzlePiece[4][4];   
 
+        // Set up each button
         int counter = 1;
         for (int i = 0; i < 4; i++)
             for (int j = 0; j < 4; j++) {
@@ -41,6 +42,7 @@ public class FifteenPuzzle {
                 counter++;
             }
 
+        // addNeighbor based on row & column position
         for (int i = 0; i < 4; i++)
             for (int j = 0; j < 4; j++) {
                 if (i - 1 >= 0)

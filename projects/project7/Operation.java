@@ -46,16 +46,16 @@ public class Operation implements ExprNode {
      * @return The value of the expression
      * PRECONDITION: all instance variables of this OperatorNode are valid
      */
-    public double evaluate(double d) {
-        double x = left.evaluate();
-        double y = right.evaluate();
+    public double evaluate(double x) {
+        double a = left.evaluate(x);
+        double b = right.evaluate(x);
         String op = operator; 
 
-        if (op.equals("+") ) return x + y;
-        if (op.equals("-") ) return x - y;
-        if (op.equals("*") ) return x * y;
-        if (op.equals("/") ) return x / y;
-        if (op.equals("^") ) return Math.pow(x, y);
+        if (op.equals("+") ) return a + b;
+        if (op.equals("-") ) return a - b;
+        if (op.equals("*") ) return a * b;
+        if (op.equals("/") ) return a / b;
+        if (op.equals("^") ) return Math.pow(a, b);
         else return 0;
     }
 }

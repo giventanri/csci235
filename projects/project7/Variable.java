@@ -13,7 +13,7 @@ public class Variable implements ExprNode {
     /**
      * The String value of the Variable
      */
-    private String var;
+    private String name;
     
     /**
      * The double value of the Variable expression.
@@ -26,9 +26,9 @@ public class Variable implements ExprNode {
      * @param var String to be parsed into the Variable name
      * @param d The double value of the Variable
      */
-    public Variable (String var, double d) {
-        this.var = var;
-        this.value = d;
+    public Variable (String name) {
+        this.name = name;
+
     }
 
     /**
@@ -37,8 +37,8 @@ public class Variable implements ExprNode {
      * @return value The double value of the Variable
      * PRECONDITION: value of this Variable is a valid double
      */
-    public double evaluate(double d) {
-        this.value = d;
+    public double evaluate(double x) {
+        this.value = x;
         return this.value;
     }
 }
