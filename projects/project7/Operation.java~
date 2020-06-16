@@ -44,7 +44,7 @@ public class Operation implements ExprNode {
      * Evaluate the expression.
      * @param x The value of a Variable (not used; artifact)
      * @return The value of the expression
-     * PRECONDITION: all instance variables of this Operation are valid
+     * PRECONDITION: all instance variables of this OperatorNode are valid
      */
     public double evaluate(double x) {
         double a = left.evaluate(x);

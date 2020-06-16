@@ -6,7 +6,7 @@
  * @author Given Tanri
  * CSCI 235, Wheaton College, Spring 2020
  * Project 7
- * 20200502
+ * Date?
  */
 
 import javax.swing.*;  
@@ -22,7 +22,7 @@ public class GraphCalc {
      */
 
     // Title and size of the default JFrame window,
-    public final String WINDOW_TITLE = "Graphing Calculator";
+    public final String WINDOW_TITLE = "Graphing calculator";
     public final int WINDOW_WIDTH = 350; // px
     public final int WINDOW_HEIGHT = 550; // px
 
@@ -34,7 +34,7 @@ public class GraphCalc {
     public final int FUNCTION_FIELD_LENGTH = 15; // column
     public final int MINMAX_FIELD_LENGTH = 3; // column
 
-    // Default values of other objects.
+    // Default values of objects.
     public final String BUTTON_TEXT = "Go";
 
     public final String FUNC_LABEL = "f(x) = ";
@@ -52,7 +52,6 @@ public class GraphCalc {
     public final boolean DEFAULT_FLAG = false;
 
     //// INSTANCE VARIABLES ////
-    // JFrame window and its objects
     /**
      * JFrame window for this GraphCalc.
      */
@@ -63,7 +62,7 @@ public class GraphCalc {
      */
     private PaintPanel graphPanel; 
 
-    // inputPanel and its objects
+    // inputPanel 
     /**
      * JPanel objects for input.
      */
@@ -121,7 +120,7 @@ public class GraphCalc {
         minMaxPanel = new JPanel();
         minMaxPanel.setLayout(new GridLayout(2,4));
 
-        errorMsg = new JLabel("     ");
+        errorMsg = new JLabel("");
 
         // Initialize objects for user input.
         funcLabel = new JLabel(FUNC_LABEL);
@@ -175,7 +174,7 @@ public class GraphCalc {
         window.setVisible(true);
     }
 
-    //// ACCESSOR METHODS ////
+    //// ACCESSOR HELPER METHODS ////
     /**
      * Get the mathematical function from JTextField.
      * @return funcNode The mathematical function to draw
@@ -183,8 +182,8 @@ public class GraphCalc {
      */
     public ExprNode getFunc(ExprNode oldFuncNode) {
         try {
-	    ExprNode funcNode = Interpreter.parse(funcField.getText() ); 
-	    return funcNode; 
+        ExprNode funcNode = Interpreter.parse(funcField.getText() ); 
+        return funcNode; 
         } catch (Exception e) {
             errorFlag = true;
             setErrorMsg("Please enter a function with a valid ExprNode format.");
@@ -193,83 +192,91 @@ public class GraphCalc {
     }
 
     /**
-     * Get the double value inputted on a JTextField;
-     * if a parsing error occurs, return a specified value instead. 
-     * @param textField JTextField object that contains the value
-     * @param oldValue The value to be returned upon a parse error 
-     * @return The double value
-     * PRECONDITION: All values must be valid.
+     * Get the value of xmin from JTextField.
+     * @return xmin The integer value of xmin 
      */
-    public double getFieldValue(JTextField textField, double oldValue) {
+    public double getXmin(double oldXmin) {
         try {
-	    double value = Double.parseDouble(textField.getText() );
-	    return value;
+        double xmin = Double.parseDouble(xminField.getText() );
+        return xmin;
         } catch (Exception e) {
             errorFlag = true;
-            setErrorMsg("Please enter a double value.");
-            return oldValue; 
+            setErrorMsg("Please enter a double value for xmin.");
+            return oldXmin; 
         }
+
     }
 
     /**
-     * Get xminField of this GraphCalc.
-     * @return xminField of this GraphCalc
+     * Get the integer value of ymin from JTextField.
+     * @return ymin The integer value of ymin 
      */
-    public JTextField xminField() {return xminField;}
+    public double getYmin(double oldYmin) {
+        try {
+        double ymin = Double.parseDouble(yminField.getText() );
+        return ymin;
+    } catch (Exception e) {
+        errorFlag = true;
+        setErrorMsg("Please enter a double value for ymin.");
+        return oldYmin; 
+    }
+    }
 
     /**
-     * Get yminField of this GraphCalc.
-     * @return yminField of this GraphCalc
+     * Get the integer value of xmax from JTextField.
+     * @return xmax The integer value of xmax 
      */
-    public JTextField yminField() {return yminField;}
+    public double getXmax(double oldXmax) {
+        try {
+        double xmax = Double.parseDouble(xmaxField.getText() );
+        return xmax;
+        } catch (Exception e) {
+            errorFlag = true;
+            setErrorMsg("Please enter a double value for xmax.");
+            return oldXmax; 
+    }
+}
 
     /**
-     * Get xmaxField of this GraphCalc.
-     * @return xmaxField of this GraphCalc
+     * Get the integer value of ymax from JTextField.
+     * @return ymax The integer value of ymax 
      */
-    public JTextField xmaxField() {return xmaxField;}
+    public double getYmax(double oldYmax) {
+        try {
+        double ymax = Double.parseDouble(ymaxField.getText() );
+        return ymax;
+        } catch (Exception e) {
+            errorFlag = true;
+            setErrorMsg("Please enter a double value for ymax.");
+        } return oldYmax; 
+    }
+   
+    public String getErrorMsg() {
+        return errorMsg.getText();
+    }
 
-    /**
-     * Get ymaxField of this GraphCalc.
-     * @return ymaxField of this GraphCalc
-     */
-    public JTextField ymaxField() {return ymaxField;}
-
-    /**
-     * Return whether an error has occured. 
-     * @return whether an error has occured
-     */
     public boolean hasError() {
         return errorFlag;
     }
 
-    //// MUTATOR METHODS ////   
-    /**
-     * Set the error message to be displayed.
-     * @param errorText The error message String
-     * PRECONDITION: errorText must be a valid String object
-     * POSTCONDITION: The text errorMsg is set to errorText
-     */
+    //// MUTATOR METHODS ////
+
     public void setErrorMsg(String errorText) {
         errorMsg.setText(errorText);
     }
 
-    /**
-     * Set whether an error has occured.
-     * @param hasError The boolean to be passed on to errorFlag
-     * PRECONDITION: hasError must be a valid boolean
-     * POSTCONDITION: errorFlag is set to hasError
-     */
     public void setErrorFlag(boolean hasError) {
         errorFlag = hasError;
     }
 
-    //// MAIN METHOD ////
+    public void prt(String s) {System.out.println(s);}
+
+
     /**
      * main method to build this GraphCalc
      */
     public static void main(String[] args) {
         GraphCalc theWindow = new GraphCalc();
-    }
+}
 
 }

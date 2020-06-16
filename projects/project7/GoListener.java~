@@ -222,4 +222,34 @@ public class GoListener implements ActionListener, Painter {
         ymax = calc.getFieldValue(calc.ymaxField(), ymax);
     }
 
+    // Accessor methods
+    /**
+     * Get the associated PaintPanel.
+     * @return panel PaintPanel to which this corresponds. 
+     */
+    public PaintPanel getPanel() { return panel; }
+
+    /**
+     * Get the associated GraphCalc. 
+     * @return calc GraphCalc to which this corresponds.
+     */
+    public GraphCalc getCalc() { return calc; }
+    }
+
+    // Mutator methods
+    /**
+     * Set to which PaintPanel this corresponds. 
+     * @param panel PaintPanel to which this will correspond
+     * PRECONDITION: panel has to be a valid PaintPanel object
+     */
+    public void setPanel(PaintPanel panel) { this.panel = panel; }
+
+    /**
+     * Set to which GraphCalc this corresponds. 
+     * @param calculator GraphCalc to which this will correspond
+     * PRECONDITION: calculator must be a valid GraphCalc object
+     * 
+     */
+    public void setCalc(GraphCalc calc) { this.calc = calc; }
+
 }
