@@ -10,13 +10,14 @@
  * 20200502
  */
 public class Number implements ExprNode {
+   
     /**
      * The integer value of the Constant expression.
      */
     private double value;
 
     /**
-     * Constructor with a String text provided
+     * Constructor with a String text provided.
      * PRECONDITION: text can be parsed into an integer
      * @param text String to be parsed into a Constant value
      */
@@ -25,12 +26,13 @@ public class Number implements ExprNode {
     }
 
     /**
-     * Evaluate the constant
-     * @param d The value of a Variable (not used; artifact)
+     * Evaluate the constant.
+     * @param x The value of a Variable (not used; artifact)
      * @return value The value of the constant
      * PRECONDITION: value of this Constant is a valid integer
      */
     public double evaluate(double x) {
         return this.value;
     }
+
 }

@@ -10,6 +10,7 @@
  * 20200502
  */
 public class Variable implements ExprNode {
+
     /**
      * The String value of the Variable
      */
@@ -23,17 +24,15 @@ public class Variable implements ExprNode {
     /**
      * Constructor with a String text provided
      * PRECONDITION: text can be parsed into an integer
-     * @param var String to be parsed into the Variable name
-     * @param d The double value of the Variable
+     * @param name String to be parsed into the Variable name
      */
     public Variable (String name) {
         this.name = name;
-
     }
 
     /**
      * Evaluate the Variable
-     * @param d The value assigned to the Variable
+     * @param x The value assigned to the Variable
      * @return value The double value of the Variable
      * PRECONDITION: value of this Variable is a valid double
      */
@@ -41,4 +40,5 @@ public class Variable implements ExprNode {
         this.value = x;
         return this.value;
     }
+
 }

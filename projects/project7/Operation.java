@@ -29,10 +29,10 @@ public class Operation implements ExprNode {
     /**
      * Constructor to complete and expression involving
      * an expression, an operator, and another expression.
-     * PRECONDITION: valid operators and expressions are inputted
      * @param operator String to be parsed into an operator
      * @param leftOperand Expression to the left of the operator
      * @param rightOperand Expression to the right of the operator
+     * PRECONDITION: Inputs must be valid
      */
     public Operation (String operator, ExprNode leftOperand, ExprNode rightOperand) {
         this.operator = operator;
@@ -41,8 +41,8 @@ public class Operation implements ExprNode {
     }
 
     /**
-     * Evaluate the expression
-     * @param d The value of a Variable (not used; artifact)
+     * Evaluate the expression.
+     * @param x The value of a Variable (not used; artifact)
      * @return The value of the expression
      * PRECONDITION: all instance variables of this OperatorNode are valid
      */
@@ -58,4 +58,5 @@ public class Operation implements ExprNode {
         if (op.equals("^") ) return Math.pow(a, b);
         else return 0;
     }
+
 }
